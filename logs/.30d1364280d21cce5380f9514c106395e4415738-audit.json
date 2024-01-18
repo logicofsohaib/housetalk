@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/mac/Documents/GitHub/houstalk_backend/logs/.30d1364280d21cce5380f9514c106395e4415738-audit.json",
+    "files": [
+        {
+            "date": 1700478989548,
+            "name": "/Users/mac/Documents/GitHub/houstalk_backend/logs/app-debug-2023-11-20.log",
+            "hash": "585ecf7123e2365d54bfe4b77a9b21ed2cdfb69047aea7f0e64fb0344098e371"
+        },
+        {
+            "date": 1700550045192,
+            "name": "/Users/mac/Documents/GitHub/houstalk_backend/logs/app-debug-2023-11-21.log",
+            "hash": "b0971df2aa6dfe863fcd941d0067ac59869da5bc95e55801b9b2a2e9cbc21627"
+        },
+        {
+            "date": 1700630962534,
+            "name": "/Users/mac/Documents/GitHub/houstalk_backend/logs/app-debug-2023-11-22.log",
+            "hash": "c6f13dd02f85f9708720078e94394546e1038146791830252669ae0e20e9ab24"
+        },
+        {
+            "date": 1700719720105,
+            "name": "/Users/mac/Documents/GitHub/houstalk_backend/logs/app-debug-2023-11-23.log",
+            "hash": "2aebe0d9c72e5621a3f9323145d7a404cbba51ec2de0d22733be375525c7f188"
+        },
+        {
+            "date": 1700804236646,
+            "name": "/Users/mac/Documents/GitHub/houstalk_backend/logs/app-debug-2023-11-24.log",
+            "hash": "8bd84782dc42939b5ec3d587aa30a7bfaf119ff1531d47aadf4f781b1e473a39"
+        },
+        {
+            "date": 1701067458028,
+            "name": "/Users/mac/Documents/GitHub/houstalk_backend/logs/app-debug-2023-11-27.log",
+            "hash": "45a988fc9ae2f5fea4e3df1c384b50335d24a954e61c902d4951675c7edf1b53"
+        }
+    ],
+    "hashType": "sha256"
+}

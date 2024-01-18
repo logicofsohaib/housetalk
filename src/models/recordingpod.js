@@ -1,0 +1,55 @@
+const recordingpodModel = (sequelize, DataTypes) => {
+    const recordingpod = sequelize.define(
+        'recordingpod',
+        {
+            recpodid: {
+                autoIncrement: true,
+                type: DataTypes.INTEGER,
+                allowNull: false,
+                primaryKey: true
+            },
+            recpod: {
+                type: DataTypes.STRING(255),
+                allowNull: false
+            },
+            pod_type: {
+                type: DataTypes.STRING(20),
+                allowNull: false
+            },
+            description: {
+                type: DataTypes.STRING(255),
+                allowNull: false
+            },
+            recpoduser: {
+                type: DataTypes.INTEGER,
+                allowNull: false
+            },
+            recpoddate: {
+                type: DataTypes.DATE,
+                allowNull: true
+            },
+            converted: {
+                type: DataTypes.CHAR(1),
+                allowNull: false,
+                defaultValue: '0'
+            }
+        },
+        {
+            sequelize,
+            tableName: 'recordingpod',
+            timestamps: false,
+            indexes: [
+                {
+                    name: 'PRIMARY',
+                    unique: true,
+                    using: 'BTREE',
+                    fields: [{name: 'recpodid'}]
+                }
+            ]
+        }
+    )
+
+    return recordingpod
+}
+
+export default recordingpodModel
